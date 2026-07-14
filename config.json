@@ -1,0 +1,7 @@
+{
+  "scenario": {
+    "numVehicles":1,
+    "numMessages":25,
+    "signatureScheme":"falcon"
+  }
+}
