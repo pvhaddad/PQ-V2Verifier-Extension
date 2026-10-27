@@ -1,2 +1,12 @@
-build/*
+build/
+.claude/
 CLAUDE.md
+phase4_raw_logs/
+logs/
+__pycache__/
+*.pyc
+# Only the poster's merged results are tracked; older/superseded exports stay local.
+exports/*
+!exports/seg_grid/
+# Reference input required by the grid driver's preflight check (scripts/phase4_harness/phase4_mn_sweep.sh).
+!exports/update21_per_trial.csv

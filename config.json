@@ -2,6 +2,19 @@
   "scenario": {
     "numVehicles":1,
     "numMessages":25,
-    "signatureScheme":"falcon"
+    "signatureScheme":"falcon",
+    "numAttackers":0,
+    "attackerMode":"expensive_valid",
+    "numAttackerMessages":0,
+    "certCycleHashOnlyCount":4,
+    "certCycleSegmentCount":2,
+    "spamFilterEnabled":false,
+    "spamFilterMinGapMs":50,
+    "spamFilterAdmitMs":100,
+    "bufferTtlMs":500,
+    "spamFilterGlobalStateCap":512,
+    "attackerMatchLegitDuration":false,
+    "attackerDurationMargin":2.0,
+    "attackerFloodRateCapPerSec":0
   }
 }
